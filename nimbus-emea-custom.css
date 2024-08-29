@@ -186,3 +186,10 @@ commerce_my_account-my-account-layout .header {
    background: #555555;
    left: 0;
 }
+
+
+/* Store  QUIck Order */ 
+
+section.csv-upload-section {
+   display: flex;
+}
