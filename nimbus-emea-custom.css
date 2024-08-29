@@ -136,9 +136,18 @@ commerce_my_account-my-account-layout .header {
 
 /* até aqui Deploy for 27/08 - Morning */
 
-.c-link .slds-button__icon{
-   width:20px;
-   height:auto;
+
+.c-link .slds-button__icon {
+   width: 20px;
+   height: auto;
+   /* display: none; */
+   text-indent: -3000px;
+   overflow: hidden;
+   fill: none;
+   background: transparent url('https://axalta--arrowhead--c.sandbox.vf.force.com/resource/1724357644000/pinoutline');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 3px 0px;
 }
 
 .c-link .slds-button {
