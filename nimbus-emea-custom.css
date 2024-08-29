@@ -148,6 +148,10 @@ commerce_my_account-my-account-layout .header {
    padding: 0 10px;
 }
 
+.nimbus-header .container:nth-child(1){
+   padding:0 1rem;
+}
+
 .nimbus-header .container:nth-child(2){
    padding-top: 0 !important;
    padding-bottom: 0 !important;
