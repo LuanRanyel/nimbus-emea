@@ -202,3 +202,8 @@ lightning-button.csv-file-button.gray-text{
 section.csv-upload-section c-osf-c-s-v-upload p {
    order:-1;
 }
+
+section.csv-upload-section c-osf-c-s-v-upload p.csv-file-text{
+   margin-top:0;
+   margin-bottom: 1rem;
+}
