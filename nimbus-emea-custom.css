@@ -149,8 +149,8 @@ commerce_my_account-my-account-layout .header {
 }
 
 .nimbus-header .container:nth-child(1){
-   padding-left:1rem !important;
-   padding-right:1rem !important;
+   padding-left:0.25rem !important;
+   padding-right:0.25rem !important;
 }
 
 .nimbus-header .container:nth-child(2){
