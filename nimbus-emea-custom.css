@@ -190,6 +190,15 @@ commerce_my_account-my-account-layout .header {
 
 /* Store  QUIck Order */ 
 
-section.csv-upload-section {
+section.csv-upload-section c-osf-c-s-v-upload {
    display: flex;
+   flex-direction: column;
+}
+
+lightning-button.csv-file-button.gray-text{
+
+}
+
+section.csv-upload-section c-osf-c-s-v-upload p {
+   order:-1;
 }
