@@ -147,3 +147,8 @@ commerce_my_account-my-account-layout .header {
    line-height: 0;
    padding: 0 10px;
 }
+
+.nimbus-header .container:nth-child(2){
+   padding-top: 0 !important;
+   padding-bottom: 0 !important;
+}
