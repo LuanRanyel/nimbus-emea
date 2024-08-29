@@ -5,6 +5,11 @@ commerce-drilldown-navigation ul.comm-drilldown-navigation__bar .slds-list__item
    padding:0.75rem;
 }
 
+ul.comm-drilldown-navigation__bar {
+   display: flex;
+   gap: 12px;
+}
+
 commerce-drilldown-navigation ul.comm-drilldown-navigation__bar .slds-list__item a,
 commerce-drilldown-navigation ul.comm-drilldown-navigation__bar .slds-list__item button{
    font-weight:bold;
@@ -170,6 +175,7 @@ commerce_my_account-my-account-layout .header {
    padding-top: 0 !important;
    padding-bottom: 0 !important;
 }
+
 
 /* magic */
 .nimbus-header:before {
