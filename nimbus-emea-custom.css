@@ -208,6 +208,8 @@ section.csv-upload-section c-osf-c-s-v-upload p.csv-file-text{
    margin-bottom: 1rem;
 }
 
-.find-and-add-to-cart-section button[disable='disable']{
-   padding:3rem;
+.find-and-add-to-cart-section button[disabled]:hover {
+   background: #c9c9c9;
+   border: none;
+   cursor: not-allowed;
 }
