@@ -5,6 +5,9 @@
     padding: 4px 8px;
   }
 
+
+  /* catálogo */
+  
   .commerce-filters-box {
     display: flex;
     width: 100%;
@@ -13,5 +16,10 @@
   .column-content .export {
       top: 0 !important;
       text-align: left !important;
+   }
+
+   .nimbus-commerce-results-grid {
+      display: grid;
+      grid-template-columns: 1fr !important;
    }
 }
