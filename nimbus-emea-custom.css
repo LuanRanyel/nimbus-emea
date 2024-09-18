@@ -1,7 +1,18 @@
 /* FIX MOBILE CSS */
 
-@media(max-width:768px){
-   .navigation-box {
-        padding: 0 8px;
-    }
+@media (max-width: 768px) {
+  .navigation-box {
+    padding: 4px 8px;
+  }
+
+  .commerce-filters-box {
+    display: flex;
+    width: 100%;
+  }
+
+  .export {
+    top: 0;
+    position: relative;
+    text-align: left;
+  }
 }
