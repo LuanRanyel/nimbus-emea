@@ -10,9 +10,8 @@
     width: 100%;
   }
 
-  .export {
+  .column-content .export {
     top: 0;
-    position: relative;
     text-align: left;
   }
 }
