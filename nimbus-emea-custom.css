@@ -5,6 +5,10 @@
     padding: 4px 8px;
   }
 
+  .settings-box {
+      padding-right: 1rem;
+   }
+
   /* catálogo */
   /* .commerce-filters-box {
     display: flex;
