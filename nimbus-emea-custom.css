@@ -11,7 +11,7 @@
   }
 
   .column-content .export {
-    top: 0;
-    text-align: left;
-  }
+      top: 0 !important;
+      text-align: left !important;
+   }
 }
