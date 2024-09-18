@@ -1,5 +1,7 @@
 /* FIX MOBILE CSS */
 
-.navigation-box {
-   padding: 0 8px;
+@media(max-width:768px){
+   .navigation-box {
+        padding: 0 8px;
+    }
 }
