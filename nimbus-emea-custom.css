@@ -6,10 +6,11 @@
   }
 
   .settings-box {
-      padding-right: 1rem;
-   }
+    padding-right: 1rem;
+  }
 
   /* catálogo */
+
   /* .commerce-filters-box {
     display: flex;
     width: 100%;
@@ -24,5 +25,13 @@
   .nimbus-commerce-results-grid {
     display: grid;
     grid-template-columns: 1fr !important;
+  }
+
+  c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div {
+    width: 100%;
+    overflow-x: auto;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
   }
 }
