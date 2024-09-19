@@ -38,5 +38,6 @@
   c-nimbus-commerce-budget-widget.component-wrapper-spacer div:first-child {
     display: flex;
     flex-wrap: wrap;
+    gap:0.5rem;
   }
 }
