@@ -34,4 +34,9 @@
     border-radius: 6px;
     border: 1px solid #ddd;
   }
+
+  c-nimbus-commerce-budget-widget.component-wrapper-spacer div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
