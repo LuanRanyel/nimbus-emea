@@ -27,7 +27,7 @@
     grid-template-columns: 1fr !important;
   }
 
-  c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div {
+  /* c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div {
     width: 100%;
     overflow-x: auto;
     padding: 1rem;
@@ -39,5 +39,5 @@
     display: flex;
     flex-wrap: wrap;
     gap:0.5rem;
-  }
+  } */
 }
