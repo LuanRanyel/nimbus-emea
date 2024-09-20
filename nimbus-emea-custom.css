@@ -1,5 +1,4 @@
 /* FIX MOBILE CSS */
-
 @media (max-width: 768px) {
   .navigation-box {
     padding: 4px 8px;
@@ -40,4 +39,13 @@
     flex-wrap: wrap;
     gap:0.5rem;
   }
+
+  commerce_data_provider-cart-data-provider c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div {
+    width: 100%;
+    overflow-x: auto;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ffcc20;
+  }
+
 }
