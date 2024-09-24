@@ -69,5 +69,10 @@
       padding-top: 0;
   }
 
+  .wrap-order-history-quick .columns-content {
+      display: flex;
+      flex-direction: column-reverse !important;
+  }
+
 
 }
