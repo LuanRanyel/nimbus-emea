@@ -37,7 +37,7 @@
   c-nimbus-commerce-budget-widget.component-wrapper-spacer div:first-child {
     display: flex;
     flex-wrap: wrap;
-    gap:0.5rem;
+    gap: 0.5rem;
   }
 
   commerce_data_provider-cart-data-provider c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div {
@@ -49,30 +49,35 @@
   }
 
   c-nimbus-commerce-results-product-emea .content-body .top-flex_container .product-details .product-description {
-      line-height: 1.1;
+    line-height: 1.1;
   }
 
-  c-nimbus-commerce-results-product-emea .content-body .flex-button_container{
-    width:100%;
+  c-nimbus-commerce-results-product-emea .content-body .flex-button_container {
+    width: 100%;
   }
 
   .notification[c-nimbusEmeaOrderNotificationBanner_nimbusEmeaOrderNotificationBanner] {
-      padding: 0.8rem 12px;
-      height: auto !important;
-      margin: 1rem;
+    padding: 0.8rem 12px;
+    height: auto !important;
+    margin: 1rem;
   }
   .csv-upload-section .csv-file-button {
     order: -1;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
   }
   button.csv-file-download-template-button.slds-button.slds-button_base.slds-m-horizontal_x-small.button-border {
-      padding-top: 0;
+    padding-top: 0;
   }
 
   .wrap-order-history-quick .columns-content {
-      display: flex;
-      flex-direction: column-reverse !important;
+    display: flex;
+    flex-direction: column-reverse !important;
   }
 
-
+  .wrap-store-features-products h1.titleText + .slds-grid {
+    width: 100%;
+  }
+  .wrap-store-features-products h1.titleText + .slds-grid [part="combobox"] {
+    width: 100%;
+  }
 }
