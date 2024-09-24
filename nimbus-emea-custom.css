@@ -48,8 +48,14 @@
     /* border: 1px solid #ffcc20; */
   }
 
-  [data-component='layoutSite-01dc']{
-
+  c-nimbus-commerce-results-product-emea .content-body .top-flex_container .product-details .product-description {
+      line-height: 1.1;
   }
+
+  c-nimbus-commerce-results-product-emea .content-body .flex-button_container{
+    width:100%;
+  }
+
+
 
 }
