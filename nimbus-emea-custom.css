@@ -68,6 +68,7 @@
   button.csv-file-download-template-button.slds-button.slds-button_base.slds-m-horizontal_x-small.button-border {
     padding-top: 0;
   }
+  
 
   .wrap-order-history-quick .columns-content {
     display: flex;
@@ -92,5 +93,5 @@
       width: 100%;
   }
 
-  
+
 }

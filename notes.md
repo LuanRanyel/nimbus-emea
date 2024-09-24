@@ -11,8 +11,6 @@ General Notes
 
 
 
-
-
 ## Page: Catalog (Category)
 
 # Task List
@@ -22,11 +20,17 @@ General Notes
 5. [ x ] Similiar: Display below Quick Order 
 
 
-
 ## Page: Cart (Cart)
 
 # Task List
-1. [   ] Fix Card Chat 
-2. [   ] 
-3. [ x ]
-5. [ x ] Similiar: Display below Quick Order 
+1. [ x ] Fix Card Chat 
+2. [   ] Padding - General
+3. [   ] Select 100%
+4. [   ] Row Product flex wrap 
+
+
+## Page: Checkout (Checkout)
+
+# Task List
+1. [   ] Padding - General
+2. [   ] Generate PO Button
