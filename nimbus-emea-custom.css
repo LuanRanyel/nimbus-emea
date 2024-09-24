@@ -77,6 +77,12 @@
   .wrap-store-features-products h1.titleText + .slds-grid {
     width: 100%;
   }
+
+  .wrap-store-features-products h1.titleText + .slds-grid .slds-form-element__control {
+    clear: left;
+    position: relative;
+  }
+
   .wrap-store-features-products h1.titleText + .slds-grid [part="combobox"] {
     width: 100%;
   }
