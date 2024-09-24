@@ -45,7 +45,11 @@
     overflow-x: auto;
     padding: 1rem;
     border-radius: 6px;
-    border: 1px solid #ffcc20;
+    /* border: 1px solid #ffcc20; */
+  }
+
+  [data-component='layoutSite-01dc']{
+
   }
 
 }
