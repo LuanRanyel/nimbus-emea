@@ -58,7 +58,7 @@
 
   .notification[c-nimbusEmeaOrderNotificationBanner_nimbusEmeaOrderNotificationBanner] {
       padding: 0.8rem 12px;
-      height: auto;
+      height: auto !important;
       margin: 1rem;
   }
   .csv-upload-section .csv-file-button {
