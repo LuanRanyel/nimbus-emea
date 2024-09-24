@@ -56,6 +56,18 @@
     width:100%;
   }
 
+  .notification[c-nimbusEmeaOrderNotificationBanner_nimbusEmeaOrderNotificationBanner] {
+      padding: 0.8rem 12px;
+      height: auto;
+      margin: 1rem;
+  }
+  .csv-upload-section .csv-file-button {
+    order: -1;
+    margin-bottom:1rem;
+  }
+  button.csv-file-download-template-button.slds-button.slds-button_base.slds-m-horizontal_x-small.button-border {
+      padding-top: 0;
+  }
 
 
 }
