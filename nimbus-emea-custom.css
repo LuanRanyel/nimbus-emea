@@ -117,15 +117,16 @@
       display: block;
   }
 
-  .car-row {
+  .cart-row {
     display: flex;
+    align-items: center;
+    margin: 0rem 0;
     flex-wrap: wrap;
     justify-content: space-between;
   }
   
   .c-info-main {
     flex: 0 0 100%; /* 30% da largura */
-    background-color: lightblue; /* Apenas para visualização */
   }
 
   .c-info-main .product-image{
@@ -134,6 +135,16 @@
 
   .c-info-main .c-content{
 
+  }
+
+  .car-row > div:nth-child(n + 3) {
+    flex: 1 0 33.33332%; /* Distribui igualmente entre os itens da segunda linha */
+    background: #99cc20; /* Apenas para visualização */
+    min-height:80px;
+  }
+
+  c-nimbus-commerce-cart-items .column-item-header{
+    display:none;
   }
 
   /* checkout */

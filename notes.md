@@ -4,7 +4,7 @@ General Notes
 
 # Task List
 1. [ x ] Alert 
-2. [ - ] Slide/Carousel Need Development (LWC Component)
+2. [ x ] Slide/Carousel Need Development (LWC Component)
 3. [ x ] ok 
 4. [ x ] Display below Quick Order - If text ... Select a CSV file from your computer or device 
 5. [ x ] Similiar: Display below Quick Order 
@@ -14,7 +14,7 @@ General Notes
 
 # Task List
 1. [ x ] Alert 
-2. [   ] Card Product Line-height text
+2. [ x ] Card Product Line-height text
 3. [ x ]
 5. [ x ] Similiar: Display below Quick Order 
 
@@ -23,9 +23,9 @@ General Notes
 
 # Task List
 1. [ x ] Fix Card Chat 
-2. [   ] Padding - General
+2. [ x ] Padding - General
 3. [   ] Select 100%
-4. [   ] Row Product flex wrap 
+4. [ x ] Row Product flex wrap 
 
 
 ## Page: Checkout (Checkout)
@@ -33,12 +33,3 @@ General Notes
 # Task List
 1. [   ] Padding - General
 2. [   ] Generate PO Button
-
-
-
-
-----
-
-[ ] Dashboard - Planos / Einsteins Analycts / Disparo de Emails (Mkt Cloud)
-[ ] Cases em "Demo"
-[ ] Informações Financeiras do Cliente
