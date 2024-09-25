@@ -163,14 +163,21 @@
     display:none;
   }
 
-  /* checkout */
+  section.c-resume-cart {
+    display: flex;
+    flex-direction: column;
+  }
 
+  section.c-resume-cart > div {
+      padding: 1rem 0;
+  }
 
-    
 
 
 }
 
+
+/* checkout */
 
 @media screen and (max-width: 500px){
   .nimbus-commerce-purchase-order .generate-po-section {
