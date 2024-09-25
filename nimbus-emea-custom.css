@@ -87,6 +87,12 @@
     width: 100%;
   }
 
+  .slds-grid :has(h1.titleText) div a {
+    background: #ffcc30;
+    display: flex;
+    max-width: 100px;
+  }
+
   c-nimbus-commerce-results-product-emea
     .content-body
     .top-flex_container
