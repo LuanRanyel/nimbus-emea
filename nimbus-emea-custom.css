@@ -26,7 +26,7 @@
     grid-template-columns: 1fr !important;
   }
 
-  c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div:nth-child(2) {
+  /* c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div:nth-child(2) {
     width: 100%;
     overflow-x: auto;
     padding: 1rem;
@@ -36,6 +36,19 @@
 
 
   c-nimbus-commerce-budget-widget.component-wrapper-spacer div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  } */
+  .container-cart .component-wrapper-spacer > div + div:nth-child(2) {
+    width: 100%;
+    overflow-x: auto;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+
+  .container-cart .component-wrapper-spacer div:first-child {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
