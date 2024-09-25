@@ -130,7 +130,7 @@
   }
 
   .container-cart .c-info-main {
-      display: block;
+      display: flex;
   }
 
   .cart-row {
