@@ -65,6 +65,7 @@
 
   c-nimbus-commerce-results-product-emea .content-body .top-flex_container .product-details .product-description {
     line-height: 1.1;
+    height: auto !important;
   }
 
   c-nimbus-commerce-results-product-emea .content-body .flex-button_container {
