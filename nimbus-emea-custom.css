@@ -64,8 +64,8 @@
   }
 
   commerce_data_provider-cart-data-provider c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div 
-  .slds-m-right--medium, .slds-m-right_medium{
-    
+  c-nimbus-commerce-budget-widget-item div .slds-m-right_medium{
+    margin-right: 0 !important
   }
 
   c-nimbus-commerce-cart-items .titleText{
