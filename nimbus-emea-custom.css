@@ -154,9 +154,17 @@
   }
 
   .car-row > div:nth-child(n + 3) {
-    flex: 1 0 33.33332%; /* Distribui igualmente entre os itens da segunda linha */
-    background: #99cc20; /* Apenas para visualização */
+    /* flex: 1 0 33.33332%;  */
+    flex: 1 0 auto; /* Distribui igualmente entre os itens da segunda linha */
     min-height:80px;
+  }
+
+  c-nimbus-commerce-cart-item .cart-row div.slds-size_1-of-12 button {
+      background: #f9f9f9;
+      width: auto;
+      position: relative;
+      top: -101px;
+      right: 0;
   }
 
   c-nimbus-commerce-cart-items .column-item-header{
