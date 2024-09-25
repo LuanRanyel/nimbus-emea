@@ -58,7 +58,7 @@
   commerce_data_provider-cart-data-provider c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div {
     width: 100%;
     overflow-x: auto;
-    padding: 1rem;
+    padding: 1rem 0;
     border-radius: 6px;
     /* border: 1px solid #ffcc20; */
   }
@@ -120,6 +120,10 @@
     
   community_layout-section.dxpStyle_310639f6-fa38-4fc3-8394-aceabfaa9dd7.container-cart.comm-section-container.lwc-6j9an5vbrcd-host {
       width: 100%;
+  }
+
+  .wrap-main-cart {
+
   }
 
   .container-cart .c-info-main {
