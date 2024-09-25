@@ -63,6 +63,15 @@
     /* border: 1px solid #ffcc20; */
   }
 
+  commerce_data_provider-cart-data-provider c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div 
+  .slds-m-right--medium, .slds-m-right_medium{
+    
+  }
+
+  c-nimbus-commerce-cart-items .titleText{
+    font-size:1.3rem;
+  }
+
   c-nimbus-commerce-results-product-emea .content-body .top-flex_container .product-details .product-description {
     line-height: 1.1;
     height: auto !important;
