@@ -67,6 +67,10 @@
     margin-right: 0 !important
   }
 
+  .wrap-main-cart .slds-carousel__indicator {
+      margin: 0 0.50rem;
+  }
+
   .c-resume-cart h1.titleText{
     font-size:1.3rem !important;
   }
