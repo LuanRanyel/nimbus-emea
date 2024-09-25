@@ -1,0 +1,116 @@
+/* FIX MOBILE CSS */
+@media (max-width: 768px) {
+  .navigation-box {
+    padding: 4px 8px;
+  }
+
+  .settings-box {
+    padding-right: 1rem;
+  }
+
+  /* catálogo */
+
+  /* .commerce-filters-box {
+    display: flex;
+    width: 100%;
+  } */
+
+  .column-content .export {
+    top: 0 !important;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nimbus-commerce-results-grid {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+
+  /* c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div:nth-child(2) {
+    width: 100%;
+    overflow-x: auto;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+
+
+  c-nimbus-commerce-budget-widget.component-wrapper-spacer div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  } */
+  .container-cart .component-wrapper-spacer > div + div:nth-child(2) {
+    width: calc(100% - 2rem)
+    overflow-x: auto;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+  }
+
+  .container-cart .component-wrapper-spacer div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  commerce_data_provider-cart-data-provider c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div {
+    width: 100%;
+    overflow-x: auto;
+    padding: 1rem;
+    border-radius: 6px;
+    /* border: 1px solid #ffcc20; */
+  }
+
+  c-nimbus-commerce-results-product-emea .content-body .top-flex_container .product-details .product-description {
+    line-height: 1.1;
+  }
+
+  c-nimbus-commerce-results-product-emea .content-body .flex-button_container {
+    width: 100%;
+  }
+
+  .notification[c-nimbusEmeaOrderNotificationBanner_nimbusEmeaOrderNotificationBanner] {
+    padding: 0.8rem 12px;
+    height: auto !important;
+    margin: 1rem;
+  }
+  .csv-upload-section .csv-file-button {
+    order: -1;
+    margin-bottom: 1rem;
+  }
+  button.csv-file-download-template-button.slds-button.slds-button_base.slds-m-horizontal_x-small.button-border {
+    padding-top: 0;
+  }
+
+
+  .wrap-order-history-quick .columns-content {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+
+  .wrap-store-features-products h1.titleText + .slds-grid {
+    width: 100%;
+  }
+
+  .wrap-store-features-products h1.titleText + .slds-grid .slds-form-element__control {
+    clear: left;
+    position: relative;
+  }
+
+  .wrap-store-features-products h1.titleText + .slds-grid [part="combobox"] {
+    width: 100%;
+  }
+
+  /* cart */
+  community_layout-section.dxpStyle_310639f6-fa38-4fc3-8394-aceabfaa9dd7.container-cart.comm-section-container.lwc-6j9an5vbrcd-host {
+      width: 100%;
+  }
+
+  .container-cart .c-info-main {
+      display: block;
+  }
+
+
+}
