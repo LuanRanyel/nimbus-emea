@@ -41,11 +41,12 @@
     gap: 0.5rem;
   } */
   .container-cart .component-wrapper-spacer > div + div:nth-child(2) {
-    width: 100%;
+    width: calc(100% - 2rem)
     overflow-x: auto;
     padding: 1rem;
     border-radius: 6px;
     border: 1px solid #ddd;
+    margin: 0 auto;
   }
 
   .container-cart .component-wrapper-spacer div:first-child {
