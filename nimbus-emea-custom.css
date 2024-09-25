@@ -63,8 +63,7 @@
     /* border: 1px solid #ffcc20; */
   }
 
-  commerce_data_provider-cart-data-provider c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div 
-  c-nimbus-commerce-budget-widget-item div .slds-m-right_medium{
+  .wrap-main-cart c-nimbus-commerce-budget-widget-item div.slds-m-right_medium{
     margin-right: 0 !important
   }
 
