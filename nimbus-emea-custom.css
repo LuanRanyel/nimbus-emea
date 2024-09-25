@@ -26,13 +26,14 @@
     grid-template-columns: 1fr !important;
   }
 
-  c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div {
+  c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div:nth-child(2) {
     width: 100%;
     overflow-x: auto;
     padding: 1rem;
     border-radius: 6px;
     border: 1px solid #ddd;
   }
+
 
   c-nimbus-commerce-budget-widget.component-wrapper-spacer div:first-child {
     display: flex;
@@ -68,7 +69,7 @@
   button.csv-file-download-template-button.slds-button.slds-button_base.slds-m-horizontal_x-small.button-border {
     padding-top: 0;
   }
-  
+
 
   .wrap-order-history-quick .columns-content {
     display: flex;
@@ -91,6 +92,11 @@
   /* cart */
   community_layout-section.dxpStyle_310639f6-fa38-4fc3-8394-aceabfaa9dd7.container-cart.comm-section-container.lwc-6j9an5vbrcd-host {
       width: 100%;
+  }
+
+  .container-cart .c-info-main {
+      display: block
+      align-items: center;
   }
 
 
