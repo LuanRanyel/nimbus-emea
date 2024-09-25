@@ -67,8 +67,8 @@
     margin-right: 0 !important
   }
 
-  c-nimbus-commerce-cart-items .titleText{
-    font-size:1.3rem;
+  .c-resume-cart h1.titleText{
+    font-size:1.3rem !important;
   }
 
   c-nimbus-commerce-results-product-emea .content-body .top-flex_container .product-details .product-description {
