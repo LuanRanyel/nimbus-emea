@@ -104,6 +104,10 @@
   }
 
   /* cart */
+  .content:has(.container-cart) {
+      padding: 1rem;
+  }
+    
   community_layout-section.dxpStyle_310639f6-fa38-4fc3-8394-aceabfaa9dd7.container-cart.comm-section-container.lwc-6j9an5vbrcd-host {
       width: 100%;
   }
@@ -111,6 +115,8 @@
   .container-cart .c-info-main {
       display: block;
   }
+
+  
 
 
 }
