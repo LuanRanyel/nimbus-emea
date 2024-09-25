@@ -40,20 +40,20 @@
     flex-wrap: wrap;
     gap: 0.5rem;
   } */
-  .container-cart .component-wrapper-spacer > div + div:nth-child(2) {
+  /* .container-cart .component-wrapper-spacer > div + div:nth-child(2) {
     width: 100%;
     overflow-x: auto;
     padding: 1rem;
     border-radius: 6px;
     border: 1px solid #ddd;
     margin: 0 auto 1rem 0;
-  }
+  } */
 
-  .container-cart .component-wrapper-spacer div:first-child {
+  /* .container-cart .component-wrapper-spacer div:first-child {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-  }
+  } */
 
   commerce_data_provider-cart-data-provider c-nimbus-commerce-budget-widget.component-wrapper-spacer > div + div {
     width: 100%;
@@ -128,7 +128,7 @@
   }
 
   .c-info-main .product-image{
-    background: #ffcc20;
+    max-width: 60px !important;
   }
 
   .c-info-main .c-content{

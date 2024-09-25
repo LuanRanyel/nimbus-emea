@@ -39,3 +39,6 @@ General Notes
 
 ----
 
+[ ] Dashboard - Planos / Einsteins Analycts / Disparo de Emails (Mkt Cloud)
+[ ] Cases em "Demo"
+[ ] Informações Financeiras do Cliente
