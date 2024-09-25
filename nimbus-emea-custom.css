@@ -116,6 +116,25 @@
       display: block;
   }
 
+  .car-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .c-info-main {
+    flex: 0 0 100%; /* 30% da largura */
+    background-color: lightblue; /* Apenas para visualização */
+  }
+
+  .c-info-main .product-image{
+    
+  }
+
+  .c-info-main .c-content{
+
+  }
+  
   
 
 
