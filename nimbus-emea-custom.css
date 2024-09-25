@@ -167,6 +167,10 @@
       right: 0;
   }
 
+  c-nimbus-commerce-cart-item .cart-row .total-price {
+      width: 100px;
+  }
+
   c-nimbus-commerce-cart-items .column-item-header{
     display:none;
   }
