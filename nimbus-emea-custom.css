@@ -75,7 +75,7 @@
 
   .c-resume-cart h1.titleText {
     font-size: 1.2rem !important;
-    width:50%;
+    width: 50%;
   }
 
   .slds-grid :has(h1.titleText) {
@@ -91,13 +91,16 @@
   }
 
   .slds-grid :has(h1.titleText) div a {
-    width:50%;
-    display: flex;
-    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+    text-align: right;
+    justify-content: flex-end;
   }
 
-  .slds-grid :has(h1.titleText) div.slds-col.slds-col_bump-right.slds-p-top_x-small {
-      padding-top: 0;
+  .slds-grid
+    :has(h1.titleText)
+    div.slds-col.slds-col_bump-right.slds-p-top_x-small {
+    padding-top: 0;
   }
 
   c-nimbus-commerce-results-product-emea
