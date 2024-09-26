@@ -86,13 +86,18 @@
 
   .slds-grid :has(h1.titleText) .slds-form-element {
     width: 100%;
-    margin-top:12px;
+    margin-top: 10px;
   }
 
   .slds-grid :has(h1.titleText) div a {
     background: #ffcc30;
     display: flex;
     max-width: 100px;
+    margin-bottom: 10px;
+  }
+
+  .slds-grid :has(h1.titleText) div.slds-col.slds-col_bump-right.slds-p-top_x-small {
+      padding-top: 0;
   }
 
   c-nimbus-commerce-results-product-emea
