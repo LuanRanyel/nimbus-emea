@@ -173,6 +173,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     border-bottom: 1px dashed #ddd;
+    margin-top:1rem;
   }
 
   .c-info-main {
@@ -181,6 +182,7 @@
 
   .c-info-main .product-image {
     max-width: 60px !important;
+    margin-right: 1rem;
   }
 
   .c-info-main .c-content {
