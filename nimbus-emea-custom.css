@@ -75,6 +75,7 @@
 
   .c-resume-cart h1.titleText {
     font-size: 1.2rem !important;
+    width:50%;
   }
 
   .slds-grid :has(h1.titleText) {
@@ -90,9 +91,8 @@
   }
 
   .slds-grid :has(h1.titleText) div a {
-    background: #ffcc30;
+    width:50%;
     display: flex;
-    max-width: 100px;
     margin-bottom: 10px;
   }
 
