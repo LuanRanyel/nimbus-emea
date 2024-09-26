@@ -81,10 +81,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
   }
 
   .slds-grid :has(h1.titleText) .slds-form-element {
     width: 100%;
+    margin-top:12px;
   }
 
   .slds-grid :has(h1.titleText) div a {
